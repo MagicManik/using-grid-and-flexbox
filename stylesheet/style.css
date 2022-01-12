@@ -1,0 +1,118 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* --------common styles---------
+--------------Amena---------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+    Width: 870px;
+    padding: 30px 42px;
+    margin-bottom: 21px;
+}
+
+/* --------heading styles of all section-----
+--------------------------------------------- */
+.section-heading{
+    color: #562EFF;
+    margin-top: 3px;
+    font-size: 24px; 
+}
+
+/* --------------players style------------
+------------------------------------------ */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.players-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* ------------article-area---------
+----------------------------------- */
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+
+/* blogs-style */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-name{
+    font-size: 20px;
+}
+.author-name a{
+    text-decoration: none;
+    font-size: 16;
+}
+p{
+    color: #9F9F9F;
+}
+span{
+    color: #562EFF;
+}
+
+/* -------------couse-style-------------
+-------------------------------------- */
+.course-details img{
+    width: 266px;
+    height: 141px;
+}
+
+.flexible-container{
+    display: flex;
+}
+.course-details a{
+    text-decoration: none;
+    color: #ED6B4F;
+}
+
+/* ----------icon-style--------
+-------------------------------- */
+.fa-star.filled{
+    color: #FFC014;
+}
+.fas{
+    color: #AEAEAE;
+}
+.fa-clock{
+    color: #FF4A60;
+}
+.hour{
+    color: #FF4A60;
+    margin-left: 5px;
+    margin-right: 5px;
+}
